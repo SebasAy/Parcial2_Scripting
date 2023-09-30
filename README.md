@@ -6,10 +6,10 @@
 ### Diseño orientado a objetos 
 | Nombre | Tipo | Atributos | Metodos |
 | --- | --- | --- | --- |
-| Bike | ***clase*** | speed, grip, acceleration, handle  | Metodos: |
-| Wheel | ***superclase*** | speed, grip, acceleration, handle | Metodos: |
-| FrontWheel | ***clase*** | speed, grip, acceleration, handle | Metodos: |
-| BackWheel | ***clase*** | speed, grip, acceleration, handle | Metodos: |
-| Chassis | ***clase*** | none | Metodos: |
-| Engine | ***clase*** | speed, acceleration, handle | Metodos: |
-| Muffler | ***clase*** | acceleration | Metodos: |
+| Bike | ***clase*** | speed, grip, acceleration, handle  | CreateChassis, CanRide, Initialize parameter, UpdateParameters, AddFrontWheel, AddBackWheel, AddEngine, AddMuffler |
+| Wheel | ***superclase*** | speed, grip, acceleration, handle | Wheel |
+| FrontWheel | ***clase*** | speed, grip, acceleration, handle | FrontWheel (Base Wheel) |
+| BackWheel | ***clase*** | speed, grip, acceleration, handle | BackWheel (Base Wheel) |
+| Chassis | ***clase*** | none | Chassis |
+| Engine | ***clase*** | speed, acceleration, handle | Engine |
+| Muffler | ***clase*** | acceleration | Muffler |
