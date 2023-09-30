@@ -9,14 +9,14 @@ namespace Parcial2_Scripting
     internal class Wheel
     {
         public float speed;
-        public float aceleration;
+        public float acceleration;
         public float handling;
         public float grip;
 
-        public Wheel(float speed, float aceleration, float handling, float grip)
+        public Wheel(float speed, float acceleration, float handling, float grip)
         {
             this.speed = speed;
-            this.aceleration = aceleration;
+            this.acceleration = acceleration;
             this.handling = handling;
             this.grip = grip;
         }

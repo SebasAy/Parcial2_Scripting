@@ -9,13 +9,13 @@ namespace Parcial2_Scripting
     internal class Engine
     {
         public float speed;
-        public float aceleration;
+        public float acceleration;
         public float handling;
         
-        public Engine(float speed, float aceleration)
+        public Engine(float speed, float acceleration)
         {
             this.speed = speed;
-            this.aceleration = aceleration;
+            this.acceleration = acceleration;
         }
     }
 }
