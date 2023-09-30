@@ -2,13 +2,28 @@ namespace Tests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
-        public void Test1()
+        public void BikeCanBeCreated()
+        {
+            Assert.Pass();
+        }
+        [Test]
+        public void BikesCanBeUsed()
+        {
+            Assert.Pass();
+        }
+        [Test]
+        public void PartCanBeAdded()
+        {
+            Assert.Pass();
+        }
+        [Test]
+        public void PartsModifyParameters()
+        {
+            Assert.Pass();
+        }
+        [Test]
+        public void MaxParameterValueOnConstructor()
         {
             Assert.Pass();
         }
