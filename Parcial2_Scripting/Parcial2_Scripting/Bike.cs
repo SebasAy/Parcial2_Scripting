@@ -12,6 +12,23 @@ namespace Parcial2_Scripting
         public float aceleration;
         public float handling;
         public float grip;
-        public Bike() { }
+        private FrontWheel frontWheel;
+        private BackWheel backWheel;
+        private Chassis chassis;
+        private Engine engine;
+        private Muffler muffler;
+
+        public Bike(FrontWheel frontWheel, BackWheel backWheel, Engine engine, Muffler muffler)
+        {
+            this.frontWheel = frontWheel;
+            this.backWheel = backWheel;
+            this.engine = engine;
+            this.muffler = muffler;
+            this.chassis = CreateChassis();
+        }
+        private Chassis CreateChassis()
+        {
+            return new Chassis();
+        }
     }
 }

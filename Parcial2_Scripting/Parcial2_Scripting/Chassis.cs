@@ -8,5 +8,6 @@ namespace Parcial2_Scripting
 {
     internal class Chassis
     {
+        public Chassis() { }
     }
 }

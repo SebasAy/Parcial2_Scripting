@@ -8,5 +8,10 @@ namespace Parcial2_Scripting
 {
     internal class Muffler
     {
+        public float acceleration;
+        public Muffler(float acceleration)
+        {
+            this.acceleration = acceleration;
+        }
     }
 }
