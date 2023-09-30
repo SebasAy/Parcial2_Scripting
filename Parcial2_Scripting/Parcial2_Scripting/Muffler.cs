@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Parcial2_Scripting
 {
-    internal class Muffler
+    public class Muffler
     {
         public float acceleration;
         public Muffler(float acceleration)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Parcial2_Scripting
 {
-    internal class Chassis
+    public class Chassis
     {
         public Chassis() { }
     }

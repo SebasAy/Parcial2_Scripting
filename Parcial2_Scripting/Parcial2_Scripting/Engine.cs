@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Parcial2_Scripting
 {
-    internal class Engine
+    public class Engine
     {
         public float speed;
         public float acceleration;

@@ -381,6 +381,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Parcial2_Scripting/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Parcial2_Scripting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Parcial2_Scripting.dll": {}
+        }
       }
     }
   },
@@ -975,6 +985,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Parcial2_Scripting/1.0.0": {
+      "type": "project",
+      "path": "../Parcial2_Scripting/Parcial2_Scripting.csproj",
+      "msbuildProject": "../Parcial2_Scripting/Parcial2_Scripting.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -983,6 +998,7 @@
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
       "NUnit3TestAdapter >= 4.4.2",
+      "Parcial2_Scripting >= 1.0.0",
       "coverlet.collector >= 3.2.0"
     ]
   },
@@ -1012,7 +1028,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sebit\\Documents\\GitHub\\Parcial2_Scripting\\Parcial2_Scripting\\Parcial2_Scripting\\Parcial2_Scripting.csproj": {
+              "projectPath": "C:\\Users\\sebit\\Documents\\GitHub\\Parcial2_Scripting\\Parcial2_Scripting\\Parcial2_Scripting\\Parcial2_Scripting.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

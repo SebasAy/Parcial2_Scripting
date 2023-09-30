@@ -5,6 +5,11 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial2_Scripting", "Parcial2_Scripting\Parcial2_Scripting.csproj", "{D8877D43-E21E-45FB-A573-5ABC9F5AD486}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{252D597E-8848-44A6-B14B-A30B67C8890D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D8877D43-E21E-45FB-A573-5ABC9F5AD486} = {D8877D43-E21E-45FB-A573-5ABC9F5AD486}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{D8877D43-E21E-45FB-A573-5ABC9F5AD486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8877D43-E21E-45FB-A573-5ABC9F5AD486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8877D43-E21E-45FB-A573-5ABC9F5AD486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{252D597E-8848-44A6-B14B-A30B67C8890D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{252D597E-8848-44A6-B14B-A30B67C8890D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{252D597E-8848-44A6-B14B-A30B67C8890D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{252D597E-8848-44A6-B14B-A30B67C8890D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

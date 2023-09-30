@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Parcial2_Scripting
 {
-    internal class FrontWheel : Wheel
+    public class FrontWheel : Wheel
     {
         public FrontWheel(float speed, float acceleration, float handling, float grip) : base(speed, acceleration, handling, grip)
         {

@@ -17,6 +17,7 @@ namespace Parcial2_Scripting
         private Chassis chassis;
         private Engine engine;
         private Muffler muffler;
+        public bool canRide;
 
         public Bike(FrontWheel frontWheel, BackWheel backWheel, Engine engine, Muffler muffler)
         {
@@ -31,6 +32,16 @@ namespace Parcial2_Scripting
         {
             return new Chassis();
         }
+        public void CanRide()
+        {
+            if (frontWheel != null && backWheel != null && engine != null && chassis != null && muffler != null)
+            {
+                    canRide = true;
+            }
+            else
+                canRide = false;
+        }
+
         private void InitializeParameters()
         {
             speed = 1.0f;
