@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Parcial2_Scripting
 {
-    internal class Bike
+    public class Bike
     {
         public float speed;
         public float acceleration;
         public float handling;
         public float grip;
-        private FrontWheel frontWheel;
-        private BackWheel backWheel;
-        private Chassis chassis;
-        private Engine engine;
-        private Muffler muffler;
+        public FrontWheel frontWheel;
+        public BackWheel backWheel;
+        public Chassis chassis;
+        public Engine engine;
+        public Muffler muffler;
         public bool canRide;
 
         public Bike(FrontWheel frontWheel, BackWheel backWheel, Engine engine, Muffler muffler)
@@ -91,10 +91,10 @@ namespace Parcial2_Scripting
             {
                 if (backWheelModification <= 10.0f)
                 {
-                    speedModification = Math.Min(backWheel.speed, 5.0f);
-                    accelerationModification = Math.Min(backWheel.acceleration, 5.0f);
-                    handlingModification = Math.Min(backWheel.handling, 5.0f);
-                    gripModification = Math.Min(backWheel.grip, 5.0f);
+                    speedModification += Math.Min(backWheel.speed, 5.0f);
+                    accelerationModification += Math.Min(backWheel.acceleration, 5.0f);
+                    handlingModification += Math.Min(backWheel.handling, 5.0f);
+                    gripModification += Math.Min(backWheel.grip, 5.0f);
                 }
             }
 
@@ -130,6 +130,11 @@ namespace Parcial2_Scripting
         {
             backWheel = newBackWheel;
             UpdateParameters();
+        }
+
+        public void AddChassis()
+        {
+            chassis = chassis;
         }
 
         public void AddEngine(Engine newEngine)

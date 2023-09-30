@@ -3,12 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial2_Scripting", "Parcial2_Scripting\Parcial2_Scripting.csproj", "{D8877D43-E21E-45FB-A573-5ABC9F5AD486}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parcial2_Scripting", "Parcial2_Scripting\Parcial2_Scripting.csproj", "{D8877D43-E21E-45FB-A573-5ABC9F5AD486}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{252D597E-8848-44A6-B14B-A30B67C8890D}"
-	ProjectSection(ProjectDependencies) = postProject
-		{D8877D43-E21E-45FB-A573-5ABC9F5AD486} = {D8877D43-E21E-45FB-A573-5ABC9F5AD486}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{252D597E-8848-44A6-B14B-A30B67C8890D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
